@@ -1,0 +1,57 @@
+*{
+    margin :0;
+    padding : 0;
+}
+.box{
+      height :100px;
+      width :100px;
+      justify-content: center;
+      align-items : center;    
+      display : flex;
+}
+#div1{
+    background-color: aqua;
+}
+#div2{
+    background-color:violet;
+}
+#div3{
+    background-color: pink;
+}
+#div4{
+    background-color: red;
+}
+
+@media(min-width:600px) and (max-width:800px){
+    #div2{
+        background-color: aqua;
+    }
+    #div3{
+        background-color:violet ;
+    }
+    #div4{
+        background-color :pink;
+    }
+    #div1{
+        background-color :red;
+    }
+
+}
+/*@media(min-width : 800px){
+     #div3{
+        background-color: aqua;
+    }
+    #div4{
+        background-color:violet ;
+    }
+    #div1{
+        background-color :pink;
+    }
+    #div2{
+        background-color : red;
+    }
+}*/
+.container{
+           display : flex;
+           justify-content : space-between;
+}
